@@ -1,5 +1,5 @@
-< xmlns = "http://www.w3.org/2000/svg" aria-hidden = "true" style = "position:absolute;width:0;height:0;overflow:hidden"> 
-    <> 		
+<svg xmlns = "http://www.w3.org/2000/svg" aria-hidden = "true" style = "position:absolute;width:0;height:0;overflow:hidden"> 
+    <defs> 		
         <symbol id = "icon-antenna" viewBox = "0 0 32 32">
             <path fill = "#2e2f42" d = "m30.773 22.098-8.443-8.505.937-4.615c.242.094.499.144.758.146h.006a2.159
                 2.159 0 1 0-2.008-1.435l-4.96.605L8.972.161a.534.534 0 0 0-.377-.16.532.532 0 0
@@ -167,7 +167,7 @@
                 0-.29-.01-.57-.024-.848A13.087 13.087 0 0 0 32 6.078z" style="fill:var(--color1, #f4f4fd)"/>
         </symbol>
 
-       <symbol id = "icon-paper-plane" viewBox = "0 0 32 32">
+        <symbol id = "icon-paper-plane" viewBox = "0 0 32 32">
             <path fill = "#fff" d = "m32 2.667-32 15 10.227 3.156L26 8.5 14.002 21.988l.01.003-.012-.003v7.345l5.735-5.576L27
                 25.999l5-23.333z" style = "fill:var(--color1, #fff)"/>
         </symbol>
