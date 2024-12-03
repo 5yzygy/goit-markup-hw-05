@@ -628,8 +628,7 @@ img
     border-color: #4D5AE5;
 }
 
-.form-icon
-{
+.form-icon {
     position: absolute;
     left: 16px;
     top: 50%;
@@ -637,7 +636,7 @@ img
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-icon:focus
+.modal-form-field:focus + .form-icon
 {
     fill: #4D5AE5;
 }
@@ -671,8 +670,7 @@ img
 
 }
 
-.policy-span
-{
+.policy-span {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -682,6 +680,13 @@ img
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.form-checkbox:checked + .policy-span
+{
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .policy-reference
