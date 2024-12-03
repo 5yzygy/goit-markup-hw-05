@@ -26,6 +26,11 @@ img
     align-items: baseline;
 }
 
+.header .container
+{
+    justify-content: space-between;
+}
+
 .navbar
 {
     display: flex;
@@ -130,6 +135,12 @@ img
 
     margin-left: auto;
     margin-right: auto;
+}
+
+.title-section .container
+{
+    flex-direction: column;
+    align-items: center;
 }
 
 .page-title
@@ -572,7 +583,7 @@ img
 
 .close-button:hover + .close-icon, .close-button:focus + .close-icon
 {
-    fill: #ffffff;
+    fill: #FFFFFF;
 }
 
 .close-icon
@@ -722,4 +733,9 @@ img
 
     margin-left: auto;
     margin-right: auto;
+}
+
+.modal-window
+{
+    display: none;
 }
